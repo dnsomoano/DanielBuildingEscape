@@ -19,6 +19,7 @@ void UPositionReport::BeginPlay()
 	FString ObjectName = GetOwner()->GetName();
 
 	UE_LOG(LogTemp, Warning, TEXT("Position report for %s"), *ObjectName);
+	UE_LOG(LogTemp, Warning, TEXT("This is a test."));
 }
 
 
